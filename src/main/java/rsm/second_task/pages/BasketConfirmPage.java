@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class BasketConfirmPage extends BasketPage {
+public class BasketConfirmPage extends BasePage {
 
     public BasketConfirmPage(WebDriver driver) {
         super(driver);
