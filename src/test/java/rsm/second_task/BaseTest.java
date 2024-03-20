@@ -23,7 +23,7 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
 //        options.addArguments("--headless");
         options.addArguments("--no-sandbox");
-        options.addArguments("--window-size=1920x1080");
+//        options.addArguments("--window-size=1920x1080");
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--disable-dev-shm-usage");
 

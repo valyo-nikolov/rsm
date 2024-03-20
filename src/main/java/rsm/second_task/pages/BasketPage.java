@@ -12,7 +12,7 @@ public class BasketPage extends BasePage {
         super(driver);
     }
 
-    @FindBy(xpath = "(//input[@type='checkbox'])[2]")
+    @FindBy(css = ".sc-grid-content-tail input")
     WebElement giftInBasketCheckbox;
 
     @FindBy(xpath = "(//input[@type='checkbox'])[1]")
